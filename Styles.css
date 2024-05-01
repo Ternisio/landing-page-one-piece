@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    background-color:#f6ff00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px; 
+}.Conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:15px;
+
+    
+}
+
+.Conteudo-principal-escrito-titulo{
+    font-family: "roboto";
+    color: white;
+    
+}
+.Conteudo-principal-escrito-subtitulo{
+    font-family: "roboto";
+
+    color: white;
+    
+}
+
+.Conteudo-principal-escrito-botao{
+    background-color: #FFBF00;
+    border: 0;
+    font-family: 'roboto';
+        font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgb(0, 0, 0,0.25) ;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    
+}
+.Conteudo-principal-escrito-botao:hover{
+    
+background-color: rgb(4, 0, 255);
+}
+.Conteudo-principal-escrito{
+line-height: 35px;
+}
+
+.Conteudo{
+    border-top: 0.4px solid rgb(18, 160, 255);
+    background-color: #a71b1b;
+  padding-bottom: 15px;
+
+    
+}
+.Conteudo-secundario{
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 48PX;
+    gap: 15px;
+
+}
+.Conteudo-secundario-subtitulo{
+    font-size: 16px;
+    text-align: center;
+    max-width: 600px;
+
+}
+.Conteudo-secundario-titulo{
+    border-top: 0.4px solid rgb(18, 160, 255);
+    padding-top: 30PX;
+
+}
+.rodape{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ff00;
+    color:rgb(0, 153, 255);
+    padding: 42px;
+     border-top: 0.4px solid rgb(18, 160, 255);
+    font-weight: 900;
+}
+.cabecalho-menu{
+   display: flex;
+   gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto';
+    color: rgb(0, 153, 255);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.cabecalho-menu-item:hover{
+    color: #c90a0a;
+}
